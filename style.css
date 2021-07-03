@@ -88,6 +88,7 @@ input{
 
 #btn{
     margin-top: 1rem;
+    margin-buttom: 1rem;
 }
 #btn:hover{
     background: #00b894;

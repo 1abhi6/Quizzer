@@ -1,0 +1,33 @@
+@media (min-width:750px) and (max-width:1000px){
+    /* @media (max-width:750px){ */
+        html{
+            font-size: 1.2rem;
+        }
+    #child_div{
+        padding: 0.5rem 1.5rem;
+    }
+    #child_div h2{
+    font-size:1.5rem;
+    font-weight:bold;
+   }
+}
+@media (max-width:750px){
+    html{
+        font-size: 1.2rem;
+    }
+    #child_div h2{
+        font-size:1.3rem;
+        font-weight:bold;
+    }
+    label{
+        font-size: 0.8rem;
+
+    }
+    #child_div{
+        padding: 0.5rem 1.0rem;
+        width:60vw;
+    }
+    #playmore{
+        padding:0.7rem 1rem;
+    }
+}

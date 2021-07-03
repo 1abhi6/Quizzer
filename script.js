@@ -74,7 +74,7 @@ const quizDB = [
     {
         question:"Q10: Which state is known as rice bowl of India?",
         a: "Kerala",
-        b: "Andhra Pradesh",
+        b: "Chhattisgarh",
         c: "Tamil Nadu",
         d: "Arunachal Pradesh",
         ans: "answer2"

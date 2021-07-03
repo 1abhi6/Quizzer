@@ -141,11 +141,25 @@ submit.addEventListener('click', () => {
         loadQuestion();
     }
     else{
+        playmore.classList.remove('tryagain');
         playmore.innerHTML = `
         <h3> You Scored ${score}/${quizDB.length} 🤞</h3>
         <button id = "btn" onclick="location.reload()">Play Again</button>
+        <h3>Your Answers</h3>
+        <pre>
+        1. Delhi
+        2. 7 Sisters
+        3. Mumbai
+        4. Rajasthan
+        5. Madhya Pradesh
+        6. Dr.Vikram Sarabhai
+        7. Bengaluru
+        8. Itanagar
+        9. Uttar Pradesh
+        10. Andhra Pradesh
+        </pre>
         `;
-        playmore.classList.remove('tryagain');
+        
 
     }
 });

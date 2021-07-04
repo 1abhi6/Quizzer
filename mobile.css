@@ -31,8 +31,3 @@
         padding:0.7rem 1rem;
     }
 }
-@media (max-width:400px){
-    #playmore > pre{
-     display:none;   
-    }
-}

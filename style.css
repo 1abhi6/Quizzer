@@ -74,9 +74,8 @@ input{
     padding:1.5rem 2rem;
     box-shadow:0 1rem 1rem -0.7rem rgba(0,0,0,0.2);
     transition: all 0.3s ease;
-
-
 }
+
 #playmore:hover{
     box-shadow:0 1rem 1rem -0.7rem rgba(0,0,0,0.3);
 }
@@ -88,7 +87,7 @@ input{
 
 #btn{
     margin-top: 1rem;
-   margin-bottom:1rem;
+    margin-bottom:1rem;
 }
 #btn:hover{
     background: #00b894;

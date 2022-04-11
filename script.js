@@ -74,7 +74,7 @@ const quizDB = [
     {
         question:"Q10: Which state is known as rice bowl of India?",
         a: "Kerala",
-        b: "Chhattisgarh",
+        b: "Andhra Pradesh",
         c: "Tamil Nadu",
         d: "Arunachal Pradesh",
         ans: "answer2"
@@ -145,7 +145,28 @@ submit.addEventListener('click', () => {
         playmore.innerHTML = `
         <h3> You Scored ${score}/${quizDB.length} 🤞</h3>
         <button id = "btn" onclick="location.reload()">Play Again</button>
-      
+        <div id ="display_answer>
+        <h3 ">Your Answers</h3> <br> <br>
+        1. Delhi <br>
+        2. 7 Sisters<br>
+        3. Mumbai<br>
+        4. Rajasthan<br>
+        5. Madhya Pradesh<br>
+        6. Dr.Vikram Sarabhai<br>
+        7. Bengaluru<br>
+        8. Itanagar<br>
+        9. Uttar Pradesh<br>
+        10. Andhra Pradesh<br>
+        <br>
+        Project Made by <br><br>
+        21102 Saurav Maurya <br>
+        21104 Abhishek Gupta <br>
+        21112 Mahindra Mali <br>
+        21126 Akash Gawde <br>
+        21224 Rachit Patwa <br>
+        For our Suresh Sir ❤️<br>
+        [Sir Pass kar dena]
+        </div>
         `;
         
 
